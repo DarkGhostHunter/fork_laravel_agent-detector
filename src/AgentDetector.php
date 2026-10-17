@@ -38,6 +38,7 @@ class AgentDetector
         'CLINE_ACTIVE' => KnownAgent::Cline,
         'GOOSE_TERMINAL' => KnownAgent::Goose,
         'OPENCLAW_SHELL' => KnownAgent::OpenClaw,
+        'ZCODE_ENV' => KnownAgent::ZCode,
     ];
 
     public static function detect(): AgentResult
